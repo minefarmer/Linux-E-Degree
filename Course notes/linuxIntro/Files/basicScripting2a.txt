@@ -1,0 +1,6 @@
+for count in {1..100}    ;   do echo $count; done
+{for}  # keyword             {do} # keyword
+  \ how many times we          \ The do keyword starts this section.       
+  are doing the command         
+
+  Setting the variable          In this situation we are echoing the count variable.
