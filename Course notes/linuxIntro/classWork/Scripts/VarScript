@@ -1,0 +1,23 @@
+#!/bin/bash
+
+name=$1
+age=$2
+
+# echo "$1 is $2 years old"  # ./VarScript
+                             # is  years old
+
+# echo "$1 is $2 years old"  # ./VarScript Ryan 1000
+                             # Ryan is 1000 years old
+
+
+
+
+# echo "$name is $age years old"  # ./VarScript Ryan 1000
+                                  # Ryan is 1000 years old
+
+
+
+
+echo "name is $age years old"  # ./VarScript Ryan 1000
+                               # name is 1000 years old
+# the first dollar sign before name can be eliminated

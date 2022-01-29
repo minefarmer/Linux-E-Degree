@@ -1,0 +1,55 @@
+directoryContents.txt
+helloWorld1.txt
+helloworld.txt
+
+
+{% comment %} 
+  OTest$ cat directoryContents.txt
+directoryContents.txt
+helloWorld1.txt
+helloworld.txt
+{% endcomment %}
+
+{% comment %} 
+ls
+directoryContents.txt  helloWorld1.txt  helloworld.txt
+{% endcomment %}
+
+
+{% comment %} 
+$ cat directoryContents.txt
+directoryContents.txt
+helloWorld1.txt
+helloworld.txt
+
+
+{% comment %} 
+  cat directoryContents.txt
+directoryContents.txt
+helloWorld1.txt
+helloworld.txt
+{% endcomment %}
+
+{% comment %} 
+ls
+directoryContents.txt  helloWorld1.txt  helloworld.txt
+{% endcomment %}
+
+{% comment %} cd FakeDir > test.txt
+bash: cd: FakeDir: No such file or directory {% endcomment %}
+
+{% comment %}  ls
+directoryContents.txt  helloWorld1.txt  helloworld.txt  test.txt
+cat test.txt
+
+cd FakeDir 2>test.txt
+
+cat test.txt
+bash: cd: FakeDir: No such file or directory
+
+cat test.txt
+bash: cd: FakeDir: No such file or directory
+bash: cd: FakeDir: No such file or directory
+
+{% endcomment %}
+

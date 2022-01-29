@@ -1,0 +1,5 @@
+# command used to create these 10 files
+    for index in {1..10}; do touch file$index; done
+
+# command used to delete these 10 files
+    for index in {1..10}; do touch file$index; clear

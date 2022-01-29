@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Hello World"  
+
+# ls -l
+# total 4
+# -rw-rw-r-- 1 rich rich 31 Jan 28 14:37 MyScript
+
+# chmod +x MyScript
+# ls -l
+# total 4
+# -rwxrwxr-x 1 rich rich 123 Jan 28 14:44 MyScript

@@ -1,0 +1,30 @@
+{% comment %}
+ echo "This is to overwrite hello word!" > helloworld.txt 
+{% endcomment %}
+
+This is to overwrite hello word!
+
+
+{% comment %} 
+to append helloworld.txt 
+{% endcomment %}
+
+This is appended to the end of the file
+
+
+
+{% comment %} cat of appended file {% endcomment %}
+
+OTest$ cat helloworld.txt
+{% comment %}
+ echo "This is to overwrite hello word!" > helloworld.txt 
+{% endcomment %}
+
+This is to overwrite hello word!
+
+
+{% comment %} 
+to append helloworld.txt 
+{% endcomment %}
+
+This is appended to the end of the file
