@@ -1,0 +1,26 @@
+{% comment %} man ping {% endcomment %}
+
+$ ping www.google.com
+PING www.google.com(rt-in-f99.1e100.net (2607:f8b0:4023:1009::63)) 56 data bytes
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=1 ttl=109 time=39.6 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=2 ttl=109 time=49.5 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=3 ttl=109 time=47.3 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=4 ttl=109 time=55.7 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=5 ttl=109 time=52.2 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=6 ttl=109 time=43.8 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=7 ttl=109 time=43.3 ms
+64 bytes from rt-in-f99.1e100.net (2607:f8b0:4023:1009::63): icmp_seq=8 ttl=109 time=36.5 ms
+^C
+--- www.google.com ping statistics ---
+8 packets transmitted, 8 received, 0% packet loss, time 7010ms
+rtt min/avg/max/mdev = 36.586/46.046/55.745/6.016 ms
+
+
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/basicNetworking$ ping -w 1 10.10.10.10
+PING 10.10.10.10 (10.10.10.10) 56(84) bytes of data.
+
+--- 10.10.10.10 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+

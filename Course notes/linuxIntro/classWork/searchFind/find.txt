@@ -1,0 +1,106 @@
+$ man find
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ touch dog1.txt
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ touch dog2.txt
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ touch 2dog2.txt
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ touch dog.txt
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ find . -name dog*
+find: paths must precede expression: `dog2.txt'
+find: possible unquoted pattern after predicate `-name'?
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/searchFind$ find . -name "dog*"
+./dog.txt
+./dog2.txt
+./dog1.txt
+
+$ ls
+1dog2.txt  2dog2.txt  dog1.txt  dog2.txt  dog.txt  find.txt
+
+$ find -name "dog.txt"
+./dog.txt
+
+$ find . -name "dog*"
+./dog.txt
+./dog2.txt
+./dog1.txt
+
+$ find . -name "*dog*"
+./1dog2.txt
+./dog.txt
+./2dog2.txt
+./dog2.txt
+./dog1.txt
+
+$ touch dog12.txt
+touch dog123
+
+$ ls
+1dog2.txt  2dog2.txt  dog123  dog12.txt  dog1.txt  dog2.txt  dog.txt  find.txt
+
+$ find . -name "?dog*"
+./1dog2.txt
+./2dog2.txt
+
+$ find . -name "dog????"
+./dog.txt
+
+$ find . -name "dog???"
+./dog123
+
+$ find . -name "dog[a-z]".txt
+./dogb.txt
+./doga.txt
+
+$ ls -l
+total 4
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:35 1dog2.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 2dog2.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:55 dog123
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:54 dog12.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:39 dog1.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 dog2.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 15:18 doga.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 15:18 dogb.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 dog.txt
+-rw-rw-r-- 1 rich rich 1339 Jan 29 15:25 find.txt
+
+$ find . size 0c
+.
+./1dog2.txt
+./find.txt
+./dog12.txt
+./dog.txt
+./dogb.txt
+./2dog2.txt
+./dog2.txt
+./dog1.txt
+./doga.txt
+./dog123
+find: ‘size’: No such file or directory
+find: ‘0c’: No such file or directory
+
+$ ls
+1dog2.txt  2dog2.txt  dog2.txt  doga.txt  dogb.txt  dog.txt  find.txt
+
+rm *1dog*
+
+$ ls
+2dog2.txt  dog2.txt  doga.txt  dogb.txt  dog.txt  find.txt
+
+$ ls -al
+total 12
+drwxrwxr-x 2 rich rich 4096 Jan 29 15:46 .
+drwxrwxr-x 6 rich rich 4096 Jan 29 12:56 ..
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 2dog2.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 dog2.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 15:18 doga.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 15:18 dogb.txt
+-rw-rw-r-- 1 rich rich    0 Jan 29 14:40 dog.txt
+-rw-rw-r-- 1 rich rich 2224 Jan 29 15:47 find.txt
+
+$ ls
+2dog2.txt  dog2.txt  doga.txt  dogb.txt  dog.txt  find.txt

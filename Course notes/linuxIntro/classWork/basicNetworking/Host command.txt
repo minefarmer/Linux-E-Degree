@@ -1,0 +1,82 @@
+rich@rich-TPM:~$ host www.google.com
+www.google.com has address 142.251.33.36
+www.google.com has IPv6 address 2607:f8b0:4023:1006::63
+www.google.com has IPv6 address 2607:f8b0:4023:1006::67
+www.google.com has IPv6 address 2607:f8b0:4023:1006::68
+www.google.com has IPv6 address 2607:f8b0:4023:1006::6a
+
+
+
+
+rich@rich-TPM:~$ host -a  www.google.com
+Trying "www.google.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4059
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.                        IN      ANY
+
+;; ANSWER SECTION:
+www.google.com.         239     IN      AAAA    2607:f8b0:4000:800::2004
+www.google.com.         36      IN      A       142.250.68.132
+
+Received 76 bytes from 127.0.0.53#53 in 61 ms
+
+
+
+
+rich@rich-TPM:~$ host -v  www.google.com
+Trying "www.google.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12980
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.                        IN      A
+
+;; ANSWER SECTION:
+www.google.com.         84      IN      A       142.250.114.99
+www.google.com.         84      IN      A       142.250.114.147
+www.google.com.         84      IN      A       142.250.114.103
+www.google.com.         84      IN      A       142.250.114.104
+www.google.com.         84      IN      A       142.250.114.105
+www.google.com.         84      IN      A       142.250.114.106
+
+Received 128 bytes from 127.0.0.53#53 in 74 ms
+Trying "www.google.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13656
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.                        IN      AAAA
+
+;; ANSWER SECTION:
+www.google.com.         81      IN      AAAA    2607:f8b0:4000:800::2004
+
+Received 60 bytes from 127.0.0.53#53 in 0 ms
+Trying "www.google.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18899
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.                        IN      MX
+
+Received 32 bytes from 127.0.0.53#53 in 36 ms
+
+
+
+
+rich@rich-TPM:~$ host -t mx google.com
+google.com mail is handled by 10 aspmx.l.google.com.
+google.com mail is handled by 40 alt3.aspmx.l.google.com.
+google.com mail is handled by 50 alt4.aspmx.l.google.com.
+google.com mail is handled by 30 alt2.aspmx.l.google.com.
+google.com mail is handled by 20 alt1.aspmx.l.google.com.
+
+
+
+
+rich@rich-TPM:~$ host -t ns google.com
+google.com name server ns4.google.com.
+google.com name server ns2.google.com.
+google.com name server ns3.google.com.
+google.com name server ns1.google.com.

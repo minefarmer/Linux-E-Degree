@@ -1,0 +1,873 @@
+rich@rich-TPM:/var/log$ ls
+alternatives.log        kern.log
+alternatives.log.1      kern.log.1
+alternatives.log.10.gz  kern.log.2.gz
+alternatives.log.11.gz  kern.log.3.gz
+alternatives.log.12.gz  kern.log.4.gz
+alternatives.log.2.gz   lastlog
+alternatives.log.3.gz   lightdm
+alternatives.log.4.gz   mintsystem.log
+alternatives.log.5.gz   mintsystem.timestamps
+alternatives.log.6.gz   openvpn
+alternatives.log.7.gz   samba
+alternatives.log.8.gz   speech-dispatcher
+alternatives.log.9.gz   syslog
+apt                     syslog.1
+auth.log                syslog.2.gz
+auth.log.1              syslog.3.gz
+auth.log.2.gz           syslog.4.gz
+auth.log.3.gz           syslog.5.gz
+auth.log.4.gz           syslog.6.gz
+boot.log                syslog.7.gz
+bootstrap.log           tallylog
+btmp                    timeshift
+btmp.1                  ubuntu-advantage-license-check.log
+cups                    ubuntu-advantage.log
+dpkg.log                ubuntu-advantage.log.1
+dpkg.log.1              ubuntu-advantage.log.2.gz
+dpkg.log.10.gz          ubuntu-advantage.log.3.gz
+dpkg.log.11.gz          ubuntu-advantage.log.4.gz
+dpkg.log.12.gz          ubuntu-advantage.log.5.gz
+dpkg.log.2.gz           ubuntu-advantage-timer.log
+dpkg.log.3.gz           ubuntu-advantage-timer.log.1
+dpkg.log.4.gz           ubuntu-advantage-timer.log.2.gz
+dpkg.log.5.gz           ubuntu-system-adjustments-adjust-grub-title.log
+dpkg.log.6.gz           ubuntu-system-adjustments-start.log
+dpkg.log.7.gz           ubuntu-system-adjustments-stop.log
+dpkg.log.8.gz           ufw.log
+dpkg.log.9.gz           ufw.log.1
+faillog                 ufw.log.2.gz
+fontconfig.log          ufw.log.3.gz
+gpu-manager.log         ufw.log.4.gz
+gufw.log                wtmp
+hp                      wtmp.1
+installer               Xorg.0.log
+journal                 Xorg.0.log.old
+
+
+
+
+=0)
+Jan 29 19:10:03 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:10:32 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:10:32 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:10:32 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:11:32 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:11:32 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:11:32 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:11:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:11:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:11:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:12:32 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:12:32 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:12:32 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:13:03 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:13:03 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:13:03 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:13:32 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:13:32 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:13:32 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:14:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:14:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:14:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:14:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:14:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:14:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:15:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:15:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:15:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:16:04 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:16:04 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:16:04 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:16:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:16:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:16:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:17:01 rich-TPM CRON[4620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 29 19:17:01 rich-TPM CRON[4620]: pam_unix(cron:session): session closed for user root
+Jan 29 19:17:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:17:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:17:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:17:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:17:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:17:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:18:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:18:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:18:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:19:04 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:19:04 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:19:04 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:19:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:19:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:19:33 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:20:33 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:20:33 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:20:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:20:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:20:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:20:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:21:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:21:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:21:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:22:04 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:22:04 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:22:04 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:22:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:22:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:22:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:23:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:23:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:23:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:23:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:23:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:23:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:24:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:24:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:24:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:25:05 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:25:05 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:25:05 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:25:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:25:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:25:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:26:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:26:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:26:34 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:26:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:26:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:26:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:27:34 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:27:34 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:27:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:28:05 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:28:05 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:28:05 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:28:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:28:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:28:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:29:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:29:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:29:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:29:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:29:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:29:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:30:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:30:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:30:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:31:05 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:31:05 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:31:06 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:31:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:31:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:31:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:32:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:32:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:32:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:32:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:32:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:32:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:33:35 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:33:35 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:33:35 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:34:06 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:34:06 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:34:06 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:34:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:34:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:34:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:35:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:35:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:35:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:35:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:35:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:35:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:36:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:36:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:36:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:37:06 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:37:06 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:37:06 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:37:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:37:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:37:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:38:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:38:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:38:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:38:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:38:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:38:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:39:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:39:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:39:36 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:40:06 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:40:06 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:40:07 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:40:36 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:40:36 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:40:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:41:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:41:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:41:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:41:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:41:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:41:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:42:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:42:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:42:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:43:07 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:43:07 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:43:07 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:43:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:43:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:43:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:44:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:44:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:44:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:44:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:44:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:44:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:44:48 rich-TPM gnome-keyring-daemon[1262]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 29 19:45:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:45:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:45:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:46:07 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:46:07 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:46:07 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:46:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:46:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:46:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:47:37 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:47:37 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:47:37 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:47:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:47:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:47:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:48:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:48:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:48:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:49:08 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:49:08 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:49:08 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:49:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:49:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:49:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:50:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:50:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:50:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:50:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:50:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:50:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:51:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:51:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:51:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:52:08 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:52:08 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:52:08 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:52:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:52:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:52:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:53:38 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:53:38 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:53:38 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:53:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:53:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:53:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:54:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:54:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:54:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:55:08 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:55:08 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:55:08 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:55:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:55:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:55:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:56:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:56:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:56:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:56:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:56:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:56:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:57:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:57:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:57:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:58:09 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:58:09 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:58:09 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:58:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:58:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:58:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:59:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:59:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:59:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 19:59:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 19:59:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 19:59:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:00:01 rich-TPM CRON[7371]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 29 20:00:01 rich-TPM CRON[7371]: pam_unix(cron:session): session closed for user root
+Jan 29 20:00:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:00:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:00:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:01:09 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:01:09 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:01:09 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:01:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:01:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:01:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:02:39 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:02:39 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:02:39 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:02:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:02:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:02:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:03:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:03:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:03:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:04:09 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:04:09 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:04:10 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:04:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:04:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:04:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:05:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:05:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:05:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:05:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:05:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:05:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:06:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:06:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:06:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:07:10 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:07:10 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:07:10 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:07:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:07:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:07:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:08:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:08:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:08:40 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:08:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:08:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:08:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:09:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:09:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:09:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:10:10 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:10:10 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:10:10 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:10:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:10:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:10:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:11:40 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:11:40 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:11:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:11:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:11:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:11:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:12:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:12:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:12:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:13:11 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:13:11 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:13:11 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:13:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:13:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:13:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:14:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:14:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:14:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:14:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:14:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:14:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:15:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:15:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:15:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:16:11 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:16:11 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:16:11 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:16:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:16:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:16:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:17:01 rich-TPM CRON[8412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 29 20:17:01 rich-TPM CRON[8412]: pam_unix(cron:session): session closed for user root
+Jan 29 20:17:41 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:17:41 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:17:41 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:17:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:17:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:17:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:18:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:18:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:18:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:19:11 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:19:11 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:19:11 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:19:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:19:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:19:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:20:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:20:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:20:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:20:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:20:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:20:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:21:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:21:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:21:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:22:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:22:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:22:12 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:22:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:22:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:22:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:23:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:23:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:23:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:23:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:23:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:23:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:24:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:24:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:24:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:25:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:25:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:25:12 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:25:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:25:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:25:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:26:42 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:26:42 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:26:42 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:26:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:26:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:26:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:27:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:27:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:27:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:28:13 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:28:13 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:28:13 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:28:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:28:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:28:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:29:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:29:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:29:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:29:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:29:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:29:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:30:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:30:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:30:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:31:13 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:31:13 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:31:13 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:31:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:31:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:31:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:32:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:32:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:32:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:32:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:32:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:32:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:33:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:33:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:33:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:34:13 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:34:13 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:34:13 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:34:38 rich-TPM gnome-keyring-daemon[1262]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 29 20:34:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:34:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:34:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:35:43 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:35:43 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:35:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:35:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:35:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:35:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:36:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:36:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:36:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:37:14 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:37:14 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:37:14 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:37:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:37:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:37:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:38:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:38:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:38:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:38:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:38:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:38:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:39:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:39:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:39:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:40:14 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:40:14 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:40:14 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:40:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:40:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:40:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:41:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:41:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:41:44 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:41:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:41:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:41:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:42:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:42:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:42:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:43:14 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:43:14 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:43:14 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:43:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:43:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:43:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:44:44 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:44:44 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:44:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:44:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:44:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:44:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:45:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:45:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:45:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:46:15 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:46:15 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:46:15 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:46:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:46:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:46:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:47:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:47:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:47:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:47:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:47:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:47:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:48:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:48:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:48:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:49:15 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:49:15 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:49:15 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:49:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:49:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:49:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:50:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:50:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:50:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:50:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:50:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:50:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:51:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:51:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:51:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:52:15 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:52:15 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:52:15 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:52:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:52:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:52:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:53:45 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:53:45 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:53:45 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:53:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:53:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:53:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:54:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:54:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:54:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:55:16 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:55:16 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:55:16 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:55:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:55:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:55:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:56:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:56:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:56:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:56:48 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:56:48 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:56:48 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:57:49 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:57:49 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:57:49 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:58:16 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:58:16 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:58:16 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:58:49 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:58:49 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:58:49 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:59:46 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:59:46 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:59:46 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 20:59:49 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 20:59:49 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 20:59:49 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:00:01 rich-TPM CRON[10550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 29 21:00:01 rich-TPM CRON[10550]: pam_unix(cron:session): session closed for user root
+Jan 29 21:00:49 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:00:49 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:00:49 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:01:16 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:01:16 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:01:16 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:01:49 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:01:49 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:01:50 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:02:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:02:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:02:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:02:50 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:02:50 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:02:50 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:03:14 rich-TPM sudo:     rich : TTY=pts/3 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/du -h
+Jan 29 21:03:14 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:03:17 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:03:50 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:03:50 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:03:50 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:04:17 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:04:17 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:04:17 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:04:50 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:04:50 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:04:50 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:05:47 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:05:47 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:05:47 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:05:50 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:05:50 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:05:51 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:06:51 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:06:51 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:06:51 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:07:17 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:07:17 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:07:17 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:07:43 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:07:51 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 29 21:07:51 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:07:51 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:07:51 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Jan 29 21:07:51 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:07:55 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 29 21:17:01 rich-TPM CRON[27691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 29 21:17:01 rich-TPM CRON[27691]: pam_unix(cron:session): session closed for user root
+Jan 29 21:30:03 rich-TPM gnome-keyring-daemon[1262]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 29 21:30:24 rich-TPM sudo:     rich : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/dmesg -c
+Jan 29 21:30:24 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 29 21:30:24 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+
+
+
+
+rich@rich-TPM:/var/log$ cd /etc/
+rich@rich-TPM:/etc$ ls
+acpi                           host.conf            pnm2ppa.conf
+adduser.conf                   hostname             polkit-1
+adjtime                        hosts                ppp
+alternatives                   hosts.allow          printcap
+anacrontab                     hosts.deny           profile
+apache2                        hp                   profile.d
+apg.conf                       ifplugd              protocols
+apm                            ImageMagick-6        pulse
+apparmor                       init                 python
+apparmor.d                     init.d               python2.7
+apport                         initramfs-tools      python3
+appstream.conf                 inputrc              python3.6
+apt                            inxi.conf            rc0.d
+avahi                          iproute2             rc1.d
+bash.bashrc                    issue                rc2.d
+bash_completion                issue.net            rc3.d
+bash_completion.d              java-11-openjdk      rc4.d
+bindresvport.blacklist         kernel               rc5.d
+binfmt.d                       kernel-img.conf      rc6.d
+bluetooth                      kerneloops.conf      rcS.d
+brlapi.key                     ldap                 request-key.conf
+brltty                         ld.so.cache          request-key.d
+brltty.conf                    ld.so.conf           resolvconf
+ca-certificates                ld.so.conf.d         resolv.conf
+ca-certificates.conf           legal                rmt
+ca-certificates.conf.dpkg-old  libao.conf           rpc
+calendar                       libaudit.conf        rsyslog.conf
+casper.conf                    libblockdev          rsyslog.d
+chatscripts                    libnl-3              samba
+chromium-browser               libpaper.d           sane.d
+cifs-utils                     libreoffice          securetty
+console-setup                  lightdm              security
+cracklib                       lighttpd             selinux
+cron.d                         lintianrc            sensors3.conf
+cron.daily                     linuxmint            sensors.d
+cron.hourly                    locale.alias         services
+cron.monthly                   locale.gen           sgml
+crontab                        localtime            shadow
+cron.weekly                    logcheck             shadow-
+cryptsetup-initramfs           login.defs           shells
+cups                           logrotate.conf       skel
+cupshelpers                    logrotate.d          speech-dispatcher
+dbus-1                         lsb-release          ssh
+debconf.conf                   ltrace.conf          ssl
+debian_version                 lvm                  subgid
+default                        machine-id           subgid-
+deluser.conf                   magic                subuid
+depmod.d                       magic.mime           subuid-
+dhcp                           mailcap              sudoers
+dictionaries-common            mailcap.order        sudoers.d
+dkms                           manpath.config       sysctl.conf
+doc-base                       menu-methods         sysctl.d
+dpkg                           mime.types           systemd
+emacs                          mke2fs.conf          terminfo
+environment                    modprobe.d           thermald
+firefox                        modules              thunderbird
+fonts                          modules-load.d       timeshift
+fstab                          mono                 timeshift.json
+fuse.conf                      mtab                 timezone
+fwupd                          mtools.conf          tmpfiles.d
+gai.conf                       nanorc               ubuntu-advantage
+gconf                          netplan              ucf.conf
+gdb                            network              udev
+geoclue                        networkd-dispatcher  udisks2
+ghostscript                    NetworkManager       ufw
+gimp                           networks             updatedb.conf
+glvnd                          newt                 update-manager
+gnome                          nsswitch.conf        update-motd.d
+gnome-app-install              obex-data-server     UPower
+gnucash                        openal               upstream-release
+groff                          openvpn              usb_modeswitch.conf
+group                          opt                  usb_modeswitch.d
+group-                         os-release           vdpau_wrapper.cfg
+grub.d                         PackageKit           vim
+gshadow                        pam.conf             vtrgb
+gshadow-                       pam.d                wgetrc
+gss                            papersize            wildmidi
+gtk-2.0                        passwd               wpa_supplicant
+gtk-3.0                        passwd-              X11
+guest-session                  pcmcia               xdg
+gufw                           perl                 xml
+hddtemp.db                     pki                  zsh_command_not_found
+hdparm.conf                    pm
+
+
+
+
+
+rich@rich-TPM:/etc/vim$ cat vimrc
+" All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
+" the call to :runtime you can find below.  If you wish to change any of those
+" settings, you should do it in this file (/etc/vim/vimrc), since debian.vim
+" will be overwritten everytime an upgrade of the vim packages is performed.
+" It is recommended to make changes after sourcing debian.vim since it alters
+" the value of the 'compatible' option.
+
+" This line should not be removed as it ensures that various options are
+" properly set to work with the Vim-related packages available in Debian.
+runtime! debian.vim
+
+" Vim will load $VIMRUNTIME/defaults.vim if the user does not have a vimrc.
+" This happens after /etc/vim/vimrc(.local) are loaded, so it will override
+" any settings in these files.
+" If you don't want that to happen, uncomment the below line to prevent
+" defaults.vim from being loaded.
+" let g:skip_defaults_vim = 1
+
+" Uncomment the next line to make Vim more Vi-compatible
+" NOTE: debian.vim sets 'nocompatible'.  Setting 'compatible' changes numerous
+" options, so any other options should be set AFTER setting 'compatible'.
+"set compatible
+
+" Vim5 and later versions support syntax highlighting. Uncommenting the next
+" line enables syntax highlighting by default.
+if has("syntax")
+  syntax on
+endif
+
+" If using a dark background within the editing area and syntax highlighting
+" turn on this option as well
+"set background=dark
+
+" Uncomment the following to have Vim jump to the last position when
+" reopening a file
+"if has("autocmd")
+"  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+"endif
+
+" Uncomment the following to have Vim load indentation rules and plugins
+" according to the detected filetype.
+"if has("autocmd")
+"  filetype plugin indent on
+"endif
+
+" The following are commented out as they cause vim to behave a lot
+" differently from regular Vi. They are highly recommended though.
+"set showcmd            " Show (partial) command in status line.
+"set showmatch          " Show matching brackets.
+"set ignorecase         " Do case insensitive matching
+"set smartcase          " Do smart case matching
+"set incsearch          " Incremental search
+"set autowrite          " Automatically save before commands like :next and :make
+"set hidden             " Hide buffers when they are abandoned
+"set mouse=a            " Enable mouse usage (all modes)
+
+" Source a global configuration file if available
+if filereadable("/etc/vim/vimrc.local")
+  source /etc/vim/vimrc.local
+endif
+
+
+
+
+rich@rich-TPM:/etc/vim$ cd /proc/
+rich@rich-TPM:/proc$ ls
+1      1364  1517   196    30506  40    6442  795        consoles     pagetypeinfo
+10     1367  1519   197    30712  405   6444  803        cpuinfo      partitions
+102    1370  1524   198    30751  406   6470  805        crypto       pressure
+103    1371  1528   199    30752  41    6488  806        devices      sched_debug
+105    1374  1540   1999   30765  410   6500  807        diskstats    schedstat
+106    1377  1560   2      30776  42    6553  815        dma          scsi
+10633  1381  1563   200    31025  5672  6565  822        driver       self
+10646  1383  1565   201    31239  5681  6578  840        execdomains  slabinfo
+10683  1384  1567   202    31548  5683  6634  866        fb           softirqs
+108    1387  1569   203    31724  5687  6701  8715       filesystems  stat
+1086   1389  1570   2062   31757  5688  671   89         fs           swaps
+11     1390  1585   21     31834  5690  6816  9          interrupts   sys
+110    1391  1595   2102   31836  5711  682   90         iomem        sysrq-trigger
+1128   1392  16     2108   31837  5712  698   91         ioports      sysvipc
+1146   1393  1607   2115   31847  5714  700   915        irq          thread-self
+11588  1394  1609   2128   31850  5748  741   92         kallsyms     timer_list
+119    1395  16388  213    31851  5749  7429  927        kcore        tty
+12     1396  1653   2133   31852  5767  743   93         keys         uptime
+122    1399  1654   2141   31853  5780  7430  94         key-users    version
+1244   14    17     22     31857  5789  747   95         kmsg         version_signature
+1245   1404  1764   23     32     5797  752   9516       kpagecgroup  vmallocinfo
+12585  1449  18     24     326    5941  757   9530       kpagecount   vmstat
+1262   1453  1805   27     327    5953  760   96         kpageflags   zoneinfo
+1265   1460  1806   27316  33     5979  761   966        loadavg
+1280   1471  1821   28     34     6005  762   967        locks
+13     1473  1825   29     35     6028  763   97         mdstat
+1331   1480  1887   29236  36     6065  764   acpi       meminfo
+1343   1486  1916   29854  37     631   766   asound     misc
+1348   1490  192    3      38     6320  7660  buddyinfo  modules
+1350   1496  193    30     384    6409  7661  bus        mounts
+136    15    194    30031  39     6436  769   cgroups    mtrr
+1363   1509  195    30464  4      6441  771   cmdline    net
+
+
+
+
+rich@rich-TPM:/proc$ cd 1
+rich@rich-TPM:/proc/1$ ls
+ls: cannot read symbolic link 'cwd': Permission denied
+ls: cannot read symbolic link 'root': Permission denied
+ls: cannot read symbolic link 'exe': Permission denied
+arch_status      cpuset   loginuid    numa_maps      sched         status
+attr             cwd      map_files   oom_adj        schedstat     syscall
+autogroup        environ  maps        oom_score      sessionid     task
+auxv             exe      mem         oom_score_adj  setgroups     timers
+cgroup           fd       mountinfo   pagemap        smaps         timerslack_ns
+clear_refs       fdinfo   mounts      patch_state    smaps_rollup  uid_map
+cmdline          gid_map  mountstats  personality    stack         wchan
+comm             io       net         projid_map     stat
+coredump_filter  limits   ns          root           statm

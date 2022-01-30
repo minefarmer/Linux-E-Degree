@@ -1,0 +1,17 @@
+grep "Mastering" index.html
+    <h3 class="shadows">Mastering Linux</h3>
+        <h1>Mastering Linux</h1
+
+
+grep -n "Mastering" index.html
+14:    <h3 class="shadows">Mastering Linux</h3>
+18:     <h1>Mastering Linux</h1>
+
+
+
+curl example.com | grep "example"
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                               Dload  Upload   Total   Spent    Left  Speed
+0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--    100  1256  100  1256    0     0  10466      0 --:--:-- --:--:-- --:--:-- 10466
+  <p>This domain is for use in illustrative examples in documents. You may use this
+  <p><a href="https://www.iana.org/domains/example">More information...</a></p>

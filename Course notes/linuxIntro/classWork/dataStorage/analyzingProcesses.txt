@@ -1,0 +1,295 @@
+{% comment %} man ps for info.
+
+ps - report a snapshot of the current processes. {% endcomment %}
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/Grep$  ps
+PID TTY          TIME CMD
+923 pts/2    00:00:00 ps
+11213 pts/2    00:00:00 bash
+
+_______________________________________________________________________
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/Grep$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 225368  6744 ?        Ss   11:22   0:04 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    11:22   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:22   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:22   0:00 [rcu_par_gp]
+root         9  0.0  0.0      0     0 ?        I<   11:22   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    11:22   0:00 [ksoftirqd/0]
+root        11  0.1  0.0      0     0 ?        I    11:22   0:26 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    11:22   0:00 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    11:22   0:00 [idle_inject/0]
+root        14  0.0  0.0      0     0 ?        S    11:22   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    11:22   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    11:22   0:00 [idle_inject/1]
+root        17  0.0  0.0      0     0 ?        S    11:22   0:00 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    11:22   0:00 [ksoftirqd/1]
+root        21  0.0  0.0      0     0 ?        S    11:22   0:00 [cpuhp/2]
+root        22  0.0  0.0      0     0 ?        S    11:22   0:00 [idle_inject/2]
+root        23  0.0  0.0      0     0 ?        S    11:22   0:00 [migration/2]
+root        24  0.0  0.0      0     0 ?        S    11:22   0:00 [ksoftirqd/2]
+root        27  0.0  0.0      0     0 ?        S    11:22   0:00 [cpuhp/3]
+root        28  0.0  0.0      0     0 ?        S    11:22   0:00 [idle_inject/3]
+root        29  0.0  0.0      0     0 ?        S    11:22   0:00 [migration/3]
+root        30  0.0  0.0      0     0 ?        S    11:22   0:00 [ksoftirqd/3]
+root        32  0.0  0.0      0     0 ?        I<   11:22   0:00 [kworker/3:0H-ev]
+root        33  0.0  0.0      0     0 ?        S    11:22   0:00 [kdevtmpfs]
+root        34  0.0  0.0      0     0 ?        I<   11:22   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    11:22   0:00 [rcu_tasks_kthre]
+root        36  0.0  0.0      0     0 ?        S    11:22   0:00 [kauditd]
+root        37  0.0  0.0      0     0 ?        S    11:22   0:00 [khungtaskd]
+root        38  0.0  0.0      0     0 ?        S    11:22   0:00 [oom_reaper]
+root        39  0.0  0.0      0     0 ?        I<   11:22   0:00 [writeback]
+root        40  0.0  0.0      0     0 ?        S    11:22   0:00 [kcompactd0]
+root        41  0.0  0.0      0     0 ?        SN   11:22   0:00 [ksmd]
+root        42  0.0  0.0      0     0 ?        SN   11:22   0:00 [khugepaged]
+root        89  0.0  0.0      0     0 ?        I<   11:22   0:00 [kintegrityd]
+root        90  0.0  0.0      0     0 ?        I<   11:22   0:00 [kblockd]
+root        91  0.0  0.0      0     0 ?        I<   11:22   0:00 [blkcg_punt_bio]
+root        92  0.0  0.0      0     0 ?        I<   11:22   0:00 [tpm_dev_wq]
+root        93  0.0  0.0      0     0 ?        I<   11:22   0:00 [ata_sff]
+root        94  0.0  0.0      0     0 ?        I<   11:22   0:00 [md]
+root        95  0.0  0.0      0     0 ?        I<   11:22   0:00 [edac-poller]
+root        96  0.0  0.0      0     0 ?        I<   11:22   0:00 [devfreq_wq]
+root        97  0.0  0.0      0     0 ?        S    11:22   0:00 [watchdogd]
+root       102  0.0  0.0      0     0 ?        S    11:22   0:12 [kswapd0]
+root       103  0.0  0.0      0     0 ?        S    11:22   0:00 [ecryptfs-kthrea]
+root       105  0.0  0.0      0     0 ?        I<   11:22   0:00 [kthrotld]
+root       106  0.0  0.0      0     0 ?        I<   11:22   0:00 [acpi_thermal_pm]
+root       108  0.0  0.0      0     0 ?        I<   11:22   0:00 [vfio-irqfd-clea]
+root       110  0.0  0.0      0     0 ?        I<   11:22   0:00 [ipv6_addrconf]
+root       119  0.0  0.0      0     0 ?        I<   11:22   0:00 [kstrp]
+root       122  0.0  0.0      0     0 ?        I<   11:22   0:02 [kworker/u17:0-r]
+root       136  0.0  0.0      0     0 ?        I<   11:22   0:00 [charger_manager]
+root       192  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_0]
+root       193  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_0]
+root       194  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_1]
+root       195  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_1]
+root       196  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_2]
+root       197  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_2]
+root       198  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_3]
+root       199  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_3]
+root       200  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_4]
+root       201  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_4]
+root       202  0.0  0.0      0     0 ?        S    11:22   0:00 [scsi_eh_5]
+root       203  0.0  0.0      0     0 ?        I<   11:22   0:00 [scsi_tmf_5]
+root       209  0.0  0.0      0     0 ?        I<   11:22   0:00 [kworker/2:1H]
+root       213  0.0  0.0      0     0 ?        I<   11:22   0:03 [kworker/1:1H-ev]
+root       214  0.0  0.0      0     0 ?        I<   11:22   0:02 [kworker/0:1H-ev]
+root       220  0.0  0.0      0     0 ?        I<   11:22   0:07 [kworker/3:1H-ev]
+root       326  0.0  0.0      0     0 ?        S    11:22   0:03 [jbd2/sda3-8]
+root       327  0.0  0.0      0     0 ?        I<   11:22   0:00 [ext4-rsv-conver]
+root       384  0.0  0.3 112308 24940 ?        S<s  11:22   0:01 /lib/systemd/systemd-journald
+root       405  0.0  0.0   4512   640 ?        S    11:22   0:00 bpfilter_umh
+root       406  0.0  0.0 105908  2448 ?        Ss   11:22   0:00 /sbin/lvmetad -f
+root       410  0.0  0.0  48112  3136 ?        Ss   11:22   0:00 /lib/systemd/systemd-udevd
+root       470  0.1  0.0      0     0 ?        I    18:21   0:00 [kworker/u16:1-i]
+root       631  0.0  0.0      0     0 ?        S    11:22   0:00 [irq/31-mei_me]
+root       671  0.0  0.0      0     0 ?        I<   11:22   0:00 [kmemstick]
+root       682  0.0  0.0      0     0 ?        I<   11:22   0:00 [cfg80211]
+root       698  0.0  0.0      0     0 ?        I<   11:22   0:00 [ktpacpid]
+root       700  0.1  0.0      0     0 ?        S    11:22   0:35 [irq/32-iwlwifi]
+systemd+   741  0.0  0.0  71564  4088 ?        Ss   11:22   0:02 /lib/systemd/systemd-resolved
+systemd+   743  0.0  0.0 145968   800 ?        Ssl  11:22   0:00 /lib/systemd/systemd-timesyncd
+root       747  0.0  0.0      0     0 ?        I<   11:22   0:00 [kworker/u17:2-h]
+root       752  0.0  0.0 434456  3660 ?        Ssl  11:22   0:00 /usr/sbin/ModemManager --filter-pol
+root       757  0.0  0.0 179864  3584 ?        Ssl  11:22   0:00 /usr/sbin/thermald --no-daemon --db
+syslog     760  0.0  0.0 263040  2772 ?        Ssl  11:22   0:00 /usr/sbin/rsyslogd -n
+avahi      761  0.0  0.0  47288  2704 ?        Ss   11:22   0:00 avahi-daemon: running [rich-TPM.loc
+root       762  0.0  0.0 170484  4624 ?        Ssl  11:22   0:00 /usr/bin/python3 /usr/bin/networkd-
+root       763  0.0  0.0 287672  4124 ?        Ssl  11:22   0:00 /usr/lib/accountsservice/accounts-d
+root       764  0.0  0.0 503072  6520 ?        Ssl  11:22   0:02 /usr/lib/udisks2/udisksd
+root       766  0.0  0.0  70556  3088 ?        Ss   11:22   0:00 /lib/systemd/systemd-logind
+avahi      769  0.0  0.0  47080    40 ?        S    11:22   0:00 avahi-daemon: chroot helper
+root       771  0.0  0.0  31324  2468 ?        Ss   11:22   0:00 /usr/sbin/cron -f
+message+   795  0.0  0.0  51468  4604 ?        Rs   11:22   0:03 /usr/bin/dbus-daemon --system --add
+root       803  0.0  0.0  45500  2348 ?        Ss   11:22   0:00 /sbin/wpa_supplicant -u -s -O /run/
+root       805  0.0  0.1 559256  9208 ?        Ssl  11:22   0:05 /usr/sbin/NetworkManager --no-daemo
+root       806  0.0  0.0 110488  2680 ?        Ssl  11:22   0:01 /usr/sbin/irqbalance --foreground
+root       807  0.0  0.0   4688  1880 ?        Ss   11:22   0:00 /usr/sbin/acpid
+kernoops   815  0.0  0.0  56944    76 ?        Ss   11:22   0:00 /usr/sbin/kerneloops --test
+kernoops   822  0.0  0.0  56944    76 ?        Ss   11:22   0:00 /usr/sbin/kerneloops
+root       840  0.0  0.0 296500  5784 ?        Ssl  11:22   0:00 /usr/lib/policykit-1/polkitd --no-d
+root       866  0.0  0.0      0     0 ?        I<   11:22   0:00 [cryptd]
+root       915  0.0  0.0 364264  4172 ?        SLsl 11:22   0:00 /usr/sbin/lightdm
+root       927  0.0  0.0  36556  2936 ?        Ss   11:22   0:00 /usr/lib/bluetooth/bluetoothd
+root       957  0.1  0.0      0     0 ?        I    18:26   0:00 [kworker/u16:2-i]
+root       966  1.8  1.1 1071248 92676 tty7    Ssl+ 11:22   7:48 /usr/lib/xorg/Xorg -core :0 -seat s
+root       967  0.0  0.0  16184  1552 tty1     Ss+  11:22   0:00 /sbin/agetty -o -p -- \u --noclear 
+rich      1054 14.9  2.1 26734988 167552 ?     Sl   18:29   0:13 /usr/lib/chromium-browser/chromium-
+rich      1061  0.0  0.6 26419476 52624 ?      Sl   18:29   0:00 /usr/lib/chromium-browser/chromium-
+root      1081  0.0  0.0      0     0 ?        I    18:29   0:00 [kworker/2:0-eve]
+root      1086  0.0  0.0 315708  5760 ?        Ssl  11:22   0:01 /usr/lib/upower/upowerd
+root      1110  0.0  0.0      0     0 ?        I    18:30   0:00 [kworker/1:0-cgr]
+root      1128  0.0  0.0 269000  4996 ?        Sl   11:22   0:00 lightdm --session-child 12 19
+root      1146  0.0  0.0  25988  3880 ?        S    11:22   0:00 /sbin/dhclient -d -q -sf /usr/lib/N
+rich      1190  0.0  0.0  39668  3660 pts/2    R+   18:31   0:00 ps aux
+rich      1244  0.0  0.0  76860  6040 ?        Ss   11:22   0:00 /lib/systemd/systemd --user
+rich      1245  0.0  0.0 132292  1588 ?        S    11:22   0:00 (sd-pam)
+rich      1262  0.0  0.0 502600  5604 ?        SLl  11:22   0:00 /usr/bin/gnome-keyring-daemon --dae
+rich      1265  0.0  0.1 547644 11536 ?        Ssl  11:22   0:01 cinnamon-session --session cinnamon
+rich      1280  0.0  0.0  51144  4704 ?        Ss   11:22   0:02 /usr/bin/dbus-daemon --session --ad
+rich      1331  0.0  0.0  11312   320 ?        Ss   11:22   0:00 /usr/bin/ssh-agent /usr/bin/im-laun
+rich      1343  0.0  0.0 349504  3844 ?        Ssl  11:22   0:00 /usr/lib/at-spi2-core/at-spi-bus-la
+rich      1348  0.0  0.0  50192  3816 ?        S    11:22   0:01 /usr/bin/dbus-daemon --config-file=
+rich      1350  0.0  0.0 220788  4620 ?        Sl   11:22   0:03 /usr/lib/at-spi2-core/at-spi2-regis
+rich      1363  0.0  0.1 395152  9060 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1364  0.0  0.1 446200  9992 ?        Sl   11:22   0:02 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1367  0.0  0.1 840872 11452 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1370  0.0  0.1 395140  8800 ?        Sl   11:22   0:01 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1371  0.0  0.1 481980  9808 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1374  0.0  0.1 318920  9000 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1377  0.0  0.1 396240  9480 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1381  0.0  0.1 542504  9236 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1383  0.0  0.1 318860  8900 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1384  0.0  0.1 395080  9076 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1387  0.0  0.1 499360  9760 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1389  0.0  0.1 443448 10588 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1390  0.0  0.1 473136  9380 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1391  0.0  0.1 392588  9072 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1392  0.0  0.1 853536 11088 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1393  0.0  0.1 395172  9120 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1394  0.0  0.5 563468 42888 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1395  0.0  0.1 626556 13072 ?        Sl   11:22   0:01 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1396  0.0  0.1 378224  9320 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1399  0.0  0.0 358596  5384 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfsd
+rich      1404  0.0  0.0 416116  3328 ?        Sl   11:22   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/
+rich      1449  0.6  0.1 1930940 15340 ?       S<l  11:22   2:45 /usr/bin/pulseaudio --start --log-t
+rtkit     1453  0.0  0.0 183512  2788 ?        SNsl 11:22   0:00 /usr/lib/rtkit/rtkit-daemon
+rich      1460  0.0  0.0 299340  4648 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-m
+rich      1471  0.0  0.0 501680  5860 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-
+rich      1473  0.0  0.0 188300  4244 ?        Sl   11:22   0:00 /usr/lib/dconf/dconf-service
+rich      1480  0.0  0.0 281692  4176 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-m
+rich      1486  0.0  0.0 266996  3856 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfs-goa-volume-monit
+rich      1490  0.0  0.1 784200 10300 ?        Sl   11:22   0:00 /usr/lib/gnome-online-accounts/goa-
+root      1496  0.0  0.0      0     0 ?        S<   11:22   0:00 [krfcommd]
+rich      1509  0.0  0.0 296336  3516 ?        Sl   11:22   0:00 /usr/lib/gnome-online-accounts/goa-
+colord    1517  0.0  0.1 317928  9248 ?        Ssl  11:22   0:00 /usr/lib/colord/colord
+rich      1519  0.0  0.0 268764  4112 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monit
+rich      1524  0.0  0.2 185116 16084 ?        S    11:22   0:00 cinnamon-launcher
+rich      1528  0.0  0.0 371724  4576 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfs-afc-volume-monit
+rich      1540  2.1  3.0 3674076 238624 ?      Sl   11:22   9:20 cinnamon --replace
+rich      1560  0.0  0.1 320840  9056 ?        Sl   11:22   0:00 /usr/lib/policykit-1-gnome/polkit-g
+rich      1563  0.0  0.2 427776 18180 ?        Sl   11:22   0:00 blueberry-obex-agent
+rich      1565  0.0  0.4 1153452 34940 ?       Sl   11:22   0:19 nemo-desktop
+rich      1567  0.0  0.2 729984 20828 ?        Sl   11:22   0:03 nm-applet
+rich      1569  0.0  0.2 410988 16192 ?        Sl   11:22   0:00 cinnamon-killer-daemon
+rich      1570  0.1  0.7 699680 61052 ?        Sl   11:22   0:35 mono /usr/lib/docky/Docky.exe
+rich      1585  0.0  0.0  82744  3444 ?        Ss   11:22   0:00 /usr/lib/bluetooth/obexd
+rich      1595  0.2  2.4 3071156 191928 ?      Ssl  11:22   0:59 /home/rich/.dropbox-dist/dropbox-ln
+rich      1607  0.0  0.0  72968  4204 ?        S    11:22   0:00 /usr/lib/x86_64-linux-gnu/gconf/gco
+rich      1609  0.0  0.0 361000  5176 ?        Sl   11:22   0:00 /usr/lib/gvfs/gvfsd-trash --spawner
+rich      1653  0.0  0.0   4632   884 ?        S    11:22   0:00 sh -c /usr/lib/x86_64-linux-gnu/lib
+rich      1654  0.0  0.0 273428  3492 ?        Sl   11:22   0:00 /usr/lib/x86_64-linux-gnu/libproxy/
+rich      1764  0.0  0.0 197424  4052 ?        Ssl  11:22   0:00 /usr/lib/gvfs/gvfsd-metadata
+rich      1805  0.0  0.2 710872 19492 ?        Sl   11:22   0:00 blueberry-tray
+rich      1806  0.0  0.3 673460 26552 ?        Sl   11:22   0:03 cinnamon-screensaver
+rich      1821  0.0  0.0  30452  6928 ?        S    11:22   0:00 python3 /usr/lib/blueberry/safechil
+rich      1825  0.0  0.0   9748   424 ?        S    11:22   0:00 /usr/sbin/rfkill event
+uuidd     1887  0.0  0.0  28144   768 ?        Ss   11:22   0:00 /usr/sbin/uuidd --socket-activation
+rich      1916  0.0  0.4 890372 34640 ?        Sl   11:23   0:00 mintUpdate
+rich      1999  0.0  0.2 250120 23296 ?        Sl   11:23   0:01 /usr/bin/python3 /usr/share/system-
+rich      2062  0.0  0.3 606724 26988 ?        Sl   11:23   0:00 mintreport-tray
+rich      2102  0.0  0.0 536748  6184 ?        Ssl  11:24   0:00 /usr/libexec/xdg-desktop-portal
+rich      2108  0.0  0.0 562160  3852 ?        Ssl  11:24   0:00 /usr/libexec/xdg-document-portal
+rich      2115  0.0  0.0 264456  3696 ?        Ssl  11:24   0:00 /usr/libexec/xdg-permission-store
+rich      2128  0.0  0.0   4632   864 ?        S    11:24   0:00 sh -c /usr/lib/x86_64-linux-gnu/lib
+rich      2133  0.0  0.0 273428  3276 ?        Sl   11:24   0:00 /usr/lib/x86_64-linux-gnu/libproxy/
+rich      2141  0.0  0.1 538268  8752 ?        Ssl  11:24   0:00 /usr/libexec/xdg-desktop-portal-gtk
+rich      5672  0.9  3.4 2899612 270912 ?      SLl  12:43   3:09 /usr/lib/chromium-browser/chromium-
+rich      5681  0.0  0.0  97648  3880 ?        Sl   12:43   0:00 /usr/lib/chromium-browser/chrome_cr
+rich      5683  0.0  0.0  23476   328 ?        S    12:43   0:00 /usr/lib/chromium-browser/chrome_cr
+rich      5687  0.0  0.2 438268 16236 ?        S    12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5688  0.0  0.2 438268 16200 ?        S    12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5690  0.0  0.1 438268 13024 ?        S    12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5711  3.2  1.9 1578916 153836 ?      Sl   12:43  11:15 /usr/lib/chromium-browser/chromium-
+rich      5712  0.1  0.5 1513000 43576 ?       SLl  12:43   0:36 /usr/lib/chromium-browser/chromium-
+rich      5714  0.0  0.2 881320 19616 ?        Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5748  0.0  1.0 26513712 83796 ?      Sl   12:43   0:03 /usr/lib/chromium-browser/chromium-
+rich      5749  0.0  0.7 26500248 57344 ?      Sl   12:43   0:01 /usr/lib/chromium-browser/chromium-
+rich      5767  5.6  2.3 26744740 187676 ?     Rl   12:43  19:32 /usr/lib/chromium-browser/chromium-
+rich      5780  0.0  1.9 26595292 154836 ?     Sl   12:43   0:18 /usr/lib/chromium-browser/chromium-
+rich      5789  0.0  1.8 39468528 142644 ?     Sl   12:43   0:16 /usr/lib/chromium-browser/chromium-
+rich      5797  0.0  0.5 26420588 39988 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5941  0.0  0.4 26421244 37384 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5953  0.0  0.5 26436016 45524 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      5979  0.0  0.5 26420392 41256 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      6005  0.0  0.4 26420380 37848 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      6028  0.0  0.5 26420168 39528 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      6065  0.0  0.5 26420440 40088 ?      Sl   12:43   0:00 /usr/lib/chromium-browser/chromium-
+rich      6320  0.0  0.8 26501588 66768 ?      Sl   12:46   0:03 /usr/lib/chromium-browser/chromium-
+rich      6409  0.2  0.2 1485452 22436 ?       Sl   12:47   0:43 /usr/lib/chromium-browser/chromium-
+rich      6436  0.6  1.4 42635772 113508 ?     SLl  12:47   2:19 /usr/share/code-insiders/code-insid
+rich      6441  0.0  0.1 341332 13588 ?        S    12:47   0:00 /usr/share/code-insiders/code-insid
+rich      6442  0.0  0.1 341332 13556 ?        S    12:47   0:00 /usr/share/code-insiders/code-insid
+rich      6444  0.0  0.1 341332 10612 ?        S    12:47   0:00 /usr/share/code-insiders/code-insid
+rich      6470  1.4  1.8 655544 146788 ?       Sl   12:47   4:57 /usr/share/code-insiders/code-insid
+rich      6488  0.0  0.3 401080 26812 ?        Sl   12:47   0:01 /usr/share/code-insiders/code-insid
+rich      6500  3.5  4.5 53188348 359400 ?     Rl   12:47  12:20 /usr/share/code-insiders/code-insid
+rich      6553  0.1  1.2 38200136 95592 ?      Sl   12:47   0:25 /usr/share/code-insiders/code-insid
+rich      6565  0.2  1.1 42488628 90788 ?      Rl   12:47   0:51 /usr/share/code-insiders/code-insid
+rich      6578  0.2  0.6 38267716 51896 ?      Rl   12:47   0:42 /usr/share/code-insiders/code-insid
+rich      6634  0.0  0.4 38184884 32392 ?      Sl   12:47   0:02 /usr/share/code-insiders/code-insid
+rich      6701  0.0  0.3 38135236 31192 ?      Sl   12:47   0:01 /usr/share/code-insiders/code-insid
+rich      6816  0.0  0.0  11312   244 ?        S    12:48   0:00 /usr/bin/ssh-agent -D -a /run/user/
+root      7429  0.0  0.0 100600  5372 ?        Ss   13:06   0:00 /usr/sbin/cupsd -l
+root      7430  0.0  0.0 303540  5840 ?        Ssl  13:06   0:00 /usr/sbin/cups-browsed
+rich      7660  0.0  0.0 139436  3960 ?        Ss   13:10   0:00 kdeinit5: Running...
+rich      7661  0.0  0.0 428004  5828 ?        Sl   13:10   0:01 /usr/lib/x86_64-linux-gnu/libexec/k
+root      8715  0.0  0.0 366600  6324 ?        Ssl  13:23   0:00 /usr/lib/packagekit/packagekitd
+rich     11213  0.0  0.0  22584  5012 pts/2    Ss   17:19   0:00 /bin/bash
+root     16388  0.0  0.0      0     0 ?        I<   15:34   0:04 [kworker/0:2H-ev]
+root     16455  0.0  0.0      0     0 ?        I<   15:35   0:03 [kworker/1:2H-kb]
+root     20376  0.0  0.0      0     0 ?        I    17:07   0:02 [kworker/3:0-eve]
+root     20775  0.0  0.0  84056  4820 ?        S    17:14   0:00 sudo apt autoremove
+root     20776  0.0  0.1  30496  9956 ?        S    17:14   0:00 /usr/bin/python3 /usr/local/bin/apt
+root     20779  0.0  1.2 160268 101732 ?       S    17:14   0:02 /usr/bin/apt autoremove
+root     20859  1.6  4.0 331032 316676 pts/1   Ss+  17:14   1:16 /usr/bin/dpkg --status-fd 74 --no-t
+root     21316  0.0  0.0   4632   832 pts/1    S+   17:21   0:00 /bin/sh /var/lib/dpkg/info/linux-im
+root     21319  0.0  0.0   4524   832 pts/1    S+   17:21   0:00 run-parts --report --exit-on-error 
+root     21326  0.0  0.0      0     0 pts/1    Z+   17:21   0:00 [grub-mkconfig] <defunct>
+root     30031  0.0  0.0      0     0 ?        I<   17:23   0:00 [kworker/2:0H-kb]
+root     30463  0.0  0.0      0     0 ?        I    17:28   0:00 [kworker/1:1-cgr]
+root     31285  0.0  0.0      0     0 ?        I    17:44   0:01 [kworker/2:1-eve]
+rich     31724  0.0  0.0 363476  7376 ?        Sl   18:00   0:00 /usr/lib/gvfs/gvfsd-network --spawn
+rich     31757  0.0  0.0 374184  7280 ?        Sl   18:00   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner
+root     31775  0.0  0.0      0     0 ?        D    18:00   0:01 [kworker/u16:3+e]
+root     31781  0.0  0.0      0     0 ?        I    18:00   0:00 [kworker/3:1-eve]
+root     31836  0.0  0.0      0     0 ?        I<   17:16   0:00 [xfsalloc]
+root     31837  0.0  0.0      0     0 ?        I<   17:16   0:00 [xfs_mru_cache]
+root     31847  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsIO]
+root     31850  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsCommit]
+root     31851  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsCommit]
+root     31852  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsCommit]
+root     31853  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsCommit]
+root     31857  0.0  0.0      0     0 ?        S    17:16   0:00 [jfsSync]
+root     32108  0.0  0.0      0     0 ?        I    18:09   0:00 [kworker/2:2-eve]
+root     32134  0.0  0.0      0     0 ?        I    18:09   0:00 [kworker/1:2-mm_]
+root     32229  0.0  0.0      0     0 ?        I    18:10   0:00 [kworker/0:1-eve]
+root     32231  0.0  0.0      0     0 ?        I    18:10   0:00 [kworker/0:3-eve]
+root     32516  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/u16:0-e]
+root     32543  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/u16:5-i]
+
+
+
+
+
+
+{% comment %} With firefox running {% endcomment %}
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/Grep$ ps -a -u -x | grep firefox
+rich      2320 52.5  4.6 12032884 363944 ?     Sl   18:47   0:31 /usr/lib/firefox/firefox
+rich      2379  0.0  0.3 341600 31240 ?        Sl   18:47   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20220126154723 -prefsLen 1 -prefMapSize 257640 -appDir /usr/lib/firefox/browser 2320 true socket
+rich      2404  1.7  1.4 2596920 110800 ?      Sl   18:47   0:01 /usr/lib/firefox/firefox-bin -contentproc -childID 1 -isForBrowser -prefsLen 117 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2446  6.8  2.2 2703624 176832 ?      Sl   18:47   0:03 /usr/lib/firefox/firefox-bin -contentproc -childID 2 -isForBrowser -prefsLen 283 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2450 10.8  3.3 2969780 262220 ?      Sl   18:47   0:06 /usr/lib/firefox/firefox-bin -contentproc -childID 3 -isForBrowser -prefsLen 283 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2458  9.2  2.8 2786604 223404 ?      Sl   18:47   0:05 /usr/lib/firefox/firefox-bin -contentproc -childID 4 -isForBrowser -prefsLen 283 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2470  6.1  3.1 2948008 243656 ?      Sl   18:47   0:03 /usr/lib/firefox/firefox-bin -contentproc -childID 5 -isForBrowser -prefsLen 283 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2700 18.9  4.5 3066812 353324 ?      Sl   18:47   0:10 /usr/lib/firefox/firefox-bin -contentproc -childID 6 -isForBrowser -prefsLen 5183 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2816 37.2  3.7 3091668 293452 ?      Sl   18:47   0:20 /usr/lib/firefox/firefox-bin -contentproc -childID 7 -isForBrowser -prefsLen 8394 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2860  0.1  0.7 2531632 58496 ?       Sl   18:47   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 8 -isForBrowser -prefsLen 8394 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2862  0.1  0.7 2531636 59196 ?       Sl   18:47   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 9 -isForBrowser -prefsLen 8394 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2894  0.1  0.7 2531632 59088 ?       Sl   18:47   0:00 /usr/lib/firefox/firefox-bin -contentproc -childID 10 -isForBrowser -prefsLen 8394 -prefMapSize 257640 -jsInitLen 279340 -parentBuildID 20220126154723 -appDir /usr/lib/firefox/browser 2320 true tab
+rich      2947  0.1  0.4 346528 33836 ?        Sl   18:47   0:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20220126154723 -prefsLen 8548 -prefMapSize 257640 -appDir /usr/lib/firefox/browser 2320 true rdd
+rich      3054  0.0  0.0  14432  1096 pts/2    S+   18:48   0:00 grep --color=auto firefox

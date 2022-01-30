@@ -1,0 +1,44 @@
+rich@rich-TPM:/$ ifconfig
+enp0s25: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 68:f7:28:1f:db:59  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xf0600000-f0620000  
+
+enx00e04c6811ff: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 00:e0:4c:68:11:ff  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 27942  bytes 3166203 (3.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 27942  bytes 3166203 (3.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.236  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 2607:fb90:47c1:66ed:14f2:7842:ca09:b9c2  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::c215:c75:8a87:eaac  prefixlen 64  scopeid 0x20<link>
+        inet6 2607:fb90:47c1:66ed:2978:2d14:d801:9358  prefixlen 64  scopeid 0x0<global>
+        ether 08:d4:0c:20:0d:f5  txqueuelen 1000  (Ethernet)
+        RX packets 676620  bytes 837266566 (837.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 356123  bytes 70302938 (70.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+
+        rich@rich-TPM:/$ ip -br a
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s25          DOWN           
+wlp3s0           UP             192.168.0.236/24 2607:fb90:47c1:66ed:14f2:7842:ca09:b9c2/64 2607:fb90:47c1:66ed:2978:2d14:d801:9358/64 fe80::c215:c75:8a87:eaac/64 
+enx00e04c6811ff  DOWN 
