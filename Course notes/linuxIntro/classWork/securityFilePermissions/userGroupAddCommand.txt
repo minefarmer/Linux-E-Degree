@@ -1,0 +1,266 @@
+Permissions$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+cups-pk-helper:x:106:112:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+rtkit:x:108:113:RealtimeKit,,,:/proc:/usr/sbin/nologin
+avahi-autoipd:x:109:114:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+systemd-coredump:x:111:117:systemd core dump processing,,,:/run/systemd:/usr/sbin/nologin
+lightdm:x:112:118:Light Display Manager:/var/lib/lightdm:/bin/false
+dnsmasq:x:113:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+saned:x:114:121::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:115:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+avahi:x:116:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:117:124:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+pulse:x:119:125:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+hplip:x:120:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:121:127::/var/lib/geoclue:/usr/sbin/nologin
+rich:x:1000:1000:Rich Matson,,,:/home/rich:/bin/bash
+
+
+
+Permissions$ useradd intern
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+
+
+
+$ useradd intern
+useradd: user 'intern' already exists
+$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+cups-pk-helper:x:106:112:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+rtkit:x:108:113:RealtimeKit,,,:/proc:/usr/sbin/nologin
+avahi-autoipd:x:109:114:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+systemd-coredump:x:111:117:systemd core dump processing,,,:/run/systemd:/usr/sbin/nologin
+lightdm:x:112:118:Light Display Manager:/var/lib/lightdm:/bin/false
+dnsmasq:x:113:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+saned:x:114:121::/var/lib/saned:/usr/sbin/nologin
+nm-openvpn:x:115:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+avahi:x:116:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:117:124:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+pulse:x:119:125:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+hplip:x:120:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:121:127::/var/lib/geoclue:/usr/sbin/nologin
+rich:x:1000:1000:Rich Matson,,,:/home/rich:/bin/bash
+intern:x:1001:1001::/home/intern:/bin/sh
+
+$ whoami
+intern
+$ 
+
+
+$ ls
+importantFile.txt  permissionsFile.txt  userGroupAddCommand.txt
+newFile.txt        sudo_suCommand.txt
+$ exit
+
+
+
+{% comment %} all processes {% endcomment %}
+Permissions$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,rich
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:rich
+floppy:x:25:
+tape:x:26:
+sudo:x:27:rich
+audio:x:29:pulse
+dip:x:30:rich
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:rich
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+crontab:x:105:
+syslog:x:106:
+messagebus:x:107:
+netdev:x:108:
+mlocate:x:109:
+ssl-cert:x:110:
+uuidd:x:111:
+lpadmin:x:112:rich
+rtkit:x:113:
+avahi-autoipd:x:114:
+ssh:x:115:
+bluetooth:x:116:
+systemd-coredump:x:117:
+lightdm:x:118:
+nopasswdlogin:x:119:
+scanner:x:120:saned
+saned:x:121:
+nm-openvpn:x:122:
+avahi:x:123:
+colord:x:124:
+pulse:x:125:
+pulse-access:x:126:
+geoclue:x:127:
+rich:x:1000:
+sambashare:x:128:rich
+intern:x:1001:
+
+
+
+
+{% comment %} add a new group {% endcomment %}
+
+Permissions$ groupadd internGroup
+groupadd: Permission denied.
+groupadd: cannot lock /etc/group; try again later.
+
+
+Permissions$ sudo !!
+sudo groupadd internGroup
+
+
+Permissions$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,rich
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:rich
+floppy:x:25:
+tape:x:26:
+sudo:x:27:rich
+audio:x:29:pulse
+dip:x:30:rich
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:rich
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+crontab:x:105:
+syslog:x:106:
+messagebus:x:107:
+netdev:x:108:
+mlocate:x:109:
+ssl-cert:x:110:
+uuidd:x:111:
+lpadmin:x:112:rich
+rtkit:x:113:
+avahi-autoipd:x:114:
+ssh:x:115:
+bluetooth:x:116:
+systemd-coredump:x:117:
+lightdm:x:118:
+nopasswdlogin:x:119:
+scanner:x:120:saned
+saned:x:121:
+nm-openvpn:x:122:
+avahi:x:123:
+colord:x:124:
+pulse:x:125:
+pulse-access:x:126:
+geoclue:x:127:
+rich:x:1000:
+sambashare:x:128:rich
+intern:x:1001:
+internGroup:x:1002:

@@ -1,0 +1,78 @@
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ touch permissions_file
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls
+chownChmodCommand.txt  permissions_file  sudo_suCommand.txt
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -al
+total 16
+drwxrwxr-x  2 rich rich 4096 Jan 30 17:57 .
+drwxrwxr-x 10 rich rich 4096 Jan 30 15:41 ..
+-rw-rw-r--  1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rw-rw-r--  1 rich rich  581 Jan 30 17:57 permissionsFile.txt
+-rw-rw-r--  1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+
+
+Permissions$ ./permissionsFile.txt
+bash: ./permissionsFile.txt: Permission denied
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ sudo ./permissionsFile.txt
+[sudo] password for rich:         
+sudo: ./permissionsFile.txt: command not found
+
+
+Permissions$ ls -l
+total 8
+-rw-rw-r-- 1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rw-rw-r-- 1 rich rich 1005 Jan 30 18:08 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 8
+-rw-rw-r-- 1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rw-rw-r-- 1 root rich 1218 Jan 30 18:11 permissionsFile.txt  # permissions changed on this file
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ sudo chgrp root permissionsFile.txt
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 8
+-rw-rw-r-- 1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rw-rw-r-- 1 root root 1561 Jan 30 18:16 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$
+
+
+Permissions$ ls -l
+total 8
+-rw-rw-r-- 1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rw-rw-r-- 1 root root 1561 Jan 30 18:16 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ sudo chmod 777 permissionsFile.txt
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 8
+-rw-rw-r-- 1 rich rich    0 Jan 30 16:40 chownChmodCommand.txt
+-rwxrwxrwx 1 root root 2118 Jan 30 18:26 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ sudo chmod u=rwx,g=rw,o=r newFile.txt
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 8
+-rwxrw-r-- 1 rich rich    0 Jan 30 18:31 newFile.txt
+-rwxrwxrwx 1 root root 2925 Jan 30 18:40 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+
+
+Permissions$ sudo chmod u-x,g-r,o-r newFile.txt
+[sudo] password for rich:         
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 8
+-rw--w---- 1 rich rich    0 Jan 30 18:31 newFile.txt
+-rwxrwxrwx 1 root root 3222 Jan 30 18:41 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt

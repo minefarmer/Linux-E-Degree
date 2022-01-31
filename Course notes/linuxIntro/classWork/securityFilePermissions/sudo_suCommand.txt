@@ -1,0 +1,26 @@
+{% comment %} Access root command 
+        creating the password. {% endcomment %}
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree$ sudo passwd root
+[sudo] password for rich:         
+Enter new UNIX password: 
+Retype new UNIX password: 
+No password supplied
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully  # password is old standard
+
+
+{% comment %} Accessing the root folder {% endcomment %}
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree$ su root
+Password: 
+root@rich-TPM:/home/rich/Desktop/CarlsHub/Linux-E-Degree# 
+
+{% comment %} who am I {% endcomment %}
+root@rich-TPM:/home/rich/Desktop/CarlsHub/Linux-E-Degree# whoami
+root
+
+{% comment %} returning back to Rich {% endcomment %}
+root@rich-TPM:/home/rich/Desktop/CarlsHub/Linux-E-Degree# su rich
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree$ whoami
+rich

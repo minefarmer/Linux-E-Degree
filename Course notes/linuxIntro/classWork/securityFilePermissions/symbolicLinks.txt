@@ -1,0 +1,18 @@
+{% comment %} man ln {% endcomment %}
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ln -s linkedFile.txt symLink.txt
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ ls -l
+total 32
+-rw-rw-r-- 1 rich rich    0 Jan 30 19:27 importantFile.txt
+-rw-rw-r-- 1 rich rich 9448 Jan 30 20:36 lastWhoW_ID.txt
+-rw-rw-r-- 1 rich rich    0 Jan 30 20:45 linkedFile.txt
+-rw--w---- 1 rich rich    0 Jan 30 18:31 newFile.txt
+-rwxrwxrwx 1 root root 3602 Jan 30 19:26 permissionsFile.txt
+-rw-rw-r-- 1 rich rich  857 Jan 30 16:39 sudo_suCommand.txt
+-rw-rw-r-- 1 rich rich   38 Jan 30 20:43 symbolicLinks.txt
+lrwxrwxrwx 1 rich rich   14 Jan 30 20:47 symLink.txt -> linkedFile.txt
+-rw-rw-r-- 1 rich rich 7657 Jan 30 20:12 userGroupAddCommand.txt
+
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/securityFilePermissions$ cat linkedFile.txt
+hey how are you?rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/cyFilePermissions$ cat symLink.txt
