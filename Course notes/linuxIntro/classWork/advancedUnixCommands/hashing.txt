@@ -1,0 +1,10 @@
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/advancedUnixCommands$ touch newfile.txt
+
+
+
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/advancedUnixCommands$ md5sum newfile.txt
+d41d8cd98f00b204e9800998ecf8427e  newfile.txt
+
+{% comment %} md5sm changed after hey was put in file {% endcomment %}
+rich@rich-TPM:~/Desktop/CarlsHub/Linux-E-Degree/Course notes/linuxIntro/classWork/advancedUnixCommands$ md5sum newfile.txt
+081ecc5e6dd6ba0d150fc4bc0e62ec50  newfile.txt

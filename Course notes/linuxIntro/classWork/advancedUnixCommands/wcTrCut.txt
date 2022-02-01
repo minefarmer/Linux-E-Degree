@@ -1,0 +1,348 @@
+rich@rich-TPM:~$ cd /var/log/
+rich@rich-TPM:/var/log$ ls
+alternatives.log        kern.log
+alternatives.log.1      kern.log.1
+alternatives.log.10.gz  kern.log.2.gz
+alternatives.log.11.gz  kern.log.3.gz
+alternatives.log.12.gz  kern.log.4.gz
+alternatives.log.2.gz   lastlog
+alternatives.log.3.gz   lightdm
+alternatives.log.4.gz   mintsystem.log
+alternatives.log.5.gz   mintsystem.timestamps
+alternatives.log.6.gz   openvpn
+alternatives.log.7.gz   samba
+alternatives.log.8.gz   speech-dispatcher
+alternatives.log.9.gz   syslog
+apt                     syslog.1
+auth.log                syslog.2.gz
+auth.log.1              syslog.3.gz
+auth.log.2.gz           syslog.4.gz
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log
+Jan 31 00:17:01 rich-TPM CRON[32246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 00:17:01 rich-TPM CRON[32246]: pam_unix(cron:session): session closed for user root
+Jan 31 00:18:59 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 31 00:19:18 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 00:19:19 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 01:00:01 rich-TPM CRON[1619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 01:00:01 rich-TPM CRON[1619]: pam_unix(cron:session): session closed for user root
+Jan 31 01:17:01 rich-TPM CRON[1976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 01:17:01 rich-TPM CRON[1976]: pam_unix(cron:session): session closed for user root
+Jan 31 01:29:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 31 01:29:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 31 01:30:18 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 31 01:53:07 rich-TPM polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.54, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jan 31 01:53:08 rich-TPM systemd-logind[829]: System is powering down.
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: New seat seat0.
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event2 (Power Button)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event9 (HP USB Keyboard)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event10 (HP USB Keyboard System Control)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event17 (ThinkPad Extra Buttons)
+Jan 31 17:34:29 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:29 rich-TPM lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 31 17:34:29 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:29 rich-TPM lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 31 17:34:29 rich-TPM lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 31 17:34:29 rich-TPM systemd-logind[837]: New session c1 of user lightdm.
+Jan 31 17:34:29 rich-TPM systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 31 17:34:30 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:30 rich-TPM lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 31 17:34:30 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:30 rich-TPM lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 31 17:34:30 rich-TPM lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "rich"
+Jan 31 17:34:42 rich-TPM lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 31 17:34:42 rich-TPM lightdm: pam_unix(lightdm:session): session opened for user rich by (uid=0)
+Jan 31 17:34:42 rich-TPM systemd-logind[837]: New session c2 of user rich.
+Jan 31 17:34:42 rich-TPM systemd: pam_unix(systemd-user:session): session opened for user rich by (uid=0)
+Jan 31 17:34:42 rich-TPM systemd-logind[837]: Removed session c1.
+Jan 31 17:34:46 rich-TPM polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.53 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan 31 17:35:07 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 17:35:07 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 17:36:03 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 31 17:41:56 rich-TPM pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 31 17:41:56 rich-TPM pkexec[3397]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-backlight-helper --set-brightness 1438 -b firmware -b platform -b raw]
+Jan 31 17:42:40 rich-TPM pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 31 17:42:40 rich-TPM pkexec[3403]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-backlight-helper --set-brightness 4794 -b firmware -b platform -b raw]
+Jan 31 17:44:25 rich-TPM pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 31 17:44:25 rich-TPM pkexec[3431]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-backlight-helper --set-brightness 1438 -b firmware -b platform -b raw]
+Jan 31 17:46:09 rich-TPM pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 31 17:46:09 rich-TPM pkexec[3455]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-backlight-helper --set-brightness 4794 -b firmware -b platform -b raw]
+Jan 31 18:00:01 rich-TPM CRON[4402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 18:00:01 rich-TPM CRON[4402]: pam_unix(cron:session): session closed for user root
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log | wc -l
+56
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log | wc
+     56     767    6900
+rich@rich-TPM:/var/log$ 
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log
+Jan 31 00:17:01 rich-TPM CRON[32246]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 00:17:01 rich-TPM CRON[32246]: pam_unix(cron:session): session closed for user root
+Jan 31 00:18:59 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 31 00:19:18 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 00:19:19 rich-TPM gnome-keyring-daemon[1255]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 01:00:01 rich-TPM CRON[1619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 01:00:01 rich-TPM CRON[1619]: pam_unix(cron:session): session closed for user root
+Jan 31 01:17:01 rich-TPM CRON[1976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 31 01:17:01 rich-TPM CRON[1976]: pam_unix(cron:session): session closed for user root
+Jan 31 01:29:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 31 01:29:12 rich-TPM sudo:     rich : TTY=unknown ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+Jan 31 01:29:12 rich-TPM sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 31 01:30:18 rich-TPM sudo: pam_unix(sudo:session): session closed for user root
+Jan 31 01:53:07 rich-TPM polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.54, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jan 31 01:53:08 rich-TPM systemd-logind[829]: System is powering down.
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: New seat seat0.
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event2 (Power Button)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event9 (HP USB Keyboard)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event10 (HP USB Keyboard System Control)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Jan 31 17:34:28 rich-TPM systemd-logind[837]: Watching system buttons on /dev/input/event17 (ThinkPad Extra Buttons)
+Jan 31 17:34:29 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:29 rich-TPM lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 31 17:34:29 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:29 rich-TPM lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 31 17:34:29 rich-TPM lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Jan 31 17:34:29 rich-TPM systemd-logind[837]: New session c1 of user lightdm.
+Jan 31 17:34:29 rich-TPM systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Jan 31 17:34:30 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:30 rich-TPM lightdm: PAM adding faulty module: pam_kwallet.so
+Jan 31 17:34:30 rich-TPM lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Jan 31 17:34:30 rich-TPM lightdm: PAM adding faulty module: pam_kwallet5.so
+Jan 31 17:34:30 rich-TPM lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "rich"
+Jan 31 17:34:42 rich-TPM lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Jan 31 17:34:42 rich-TPM lightdm: pam_unix(lightdm:session): session opened for user rich by (uid=0)
+Jan 31 17:34:42 rich-TPM systemd-logind[837]: New session c2 of user rich.
+Jan 31 17:34:42 rich-TPM systemd: pam_unix(systemd-user:session): session opened for user rich by (uid=0)
+Jan 31 17:34:42 rich-TPM systemd-logind[837]: Removed session c1.
+Jan 31 17:34:46 rich-TPM polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.53 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan 31 17:35:07 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 17:35:07 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Jan 31 17:36:03 rich-TPM gnome-keyring-daemon[1258]: asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+Jan 31 17:41:56 rich-TPM pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 31 17:41:56 rich-TPM pkexec[3397]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-backlight-helper --set-brightness 1438 -b firmware -b platform -b raw]
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log | cut -d ':' -f 4
+ pam_unix(cron
+ pam_unix(cron
+ asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(cron
+     rich 
+ pam_unix(sudo
+ pam_unix(sudo
+     rich 
+ pam_unix(sudo
+ pam_unix(sudo
+ Unregistered Authentication Agent for unix-session
+ System is powering down.
+ New seat seat0.
+ Watching system buttons on /dev/input/event2 (Power Button)
+ Watching system buttons on /dev/input/event0 (Lid Switch)
+ Watching system buttons on /dev/input/event1 (Sleep Button)
+ Watching system buttons on /dev/input/event9 (HP USB Keyboard)
+ Watching system buttons on /dev/input/event10 (HP USB Keyboard System Control)
+ Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+ Watching system buttons on /dev/input/event17 (ThinkPad Extra Buttons)
+ PAM unable to dlopen(pam_kwallet.so)
+ PAM adding faulty module
+ PAM unable to dlopen(pam_kwallet5.so)
+ PAM adding faulty module
+ pam_unix(lightdm-greeter
+ New session c1 of user lightdm.
+ pam_unix(systemd-user
+ PAM unable to dlopen(pam_kwallet.so)
+ PAM adding faulty module
+ PAM unable to dlopen(pam_kwallet5.so)
+ PAM adding faulty module
+ pam_succeed_if(lightdm
+ pam_unix(lightdm-greeter
+ pam_unix(lightdm
+ New session c2 of user rich.
+ pam_unix(systemd-user
+ Removed session c1.
+ Registered Authentication Agent for unix-session
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(polkit-1
+ rich
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(polkit-1
+ rich
+
+
+
+
+ rich@rich-TPM:/var/log$ cat auth.log | cut -d ':' -f 4
+ pam_unix(cron
+ pam_unix(cron
+ asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(cron
+     rich 
+ pam_unix(sudo
+ pam_unix(sudo
+     rich 
+ pam_unix(sudo
+ pam_unix(sudo
+ Unregistered Authentication Agent for unix-session
+ System is powering down.
+ New seat seat0.
+ Watching system buttons on /dev/input/event2 (Power Button)
+ Watching system buttons on /dev/input/event0 (Lid Switch)
+ Watching system buttons on /dev/input/event1 (Sleep Button)
+ Watching system buttons on /dev/input/event9 (HP USB Keyboard)
+ Watching system buttons on /dev/input/event10 (HP USB Keyboard System Control)
+ Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+ Watching system buttons on /dev/input/event17 (ThinkPad Extra Buttons)
+ PAM unable to dlopen(pam_kwallet.so)
+ PAM adding faulty module
+ PAM unable to dlopen(pam_kwallet5.so)
+ PAM adding faulty module
+ pam_unix(lightdm-greeter
+ New session c1 of user lightdm.
+ pam_unix(systemd-user
+ PAM unable to dlopen(pam_kwallet.so)
+ PAM adding faulty module
+ PAM unable to dlopen(pam_kwallet5.so)
+ PAM adding faulty module
+ pam_succeed_if(lightdm
+ pam_unix(lightdm-greeter
+ pam_unix(lightdm
+ New session c2 of user rich.
+ pam_unix(systemd-user
+ Removed session c1.
+ Registered Authentication Agent for unix-session
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+ asked to register item /org/freedesktop/secrets/collection/login/7, but it's already registered
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(polkit-1
+ rich
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(polkit-1
+ rich
+ pam_unix(cron
+ pam_unix(cron
+ pam_unix(polkit-1
+ rich
+rich@rich-TPM:/var/log$ cat auth.log | cut -d ':' -f 4 | tr -d "u  "
+pam_nix(cron
+pam_nix(cron
+askedtoregisteritem/org/freedesktop/secrets/collection/login/7,btit'salreadyregistered
+askedtoregisteritem/org/freedesktop/secrets/collection/login/1,btit'salreadyregistered
+askedtoregisteritem/org/freedesktop/secrets/collection/login/1,btit'salreadyregistered
+pam_nix(cron
+pam_nix(cron
+pam_nix(cron
+pam_nix(cron
+rich
+pam_nix(sdo
+pam_nix(sdo
+rich
+pam_nix(sdo
+pam_nix(sdo
+UnregisteredAthenticationAgentfornix-session
+Systemispoweringdown.
+Newseatseat0.
+Watchingsystembttonson/dev/inpt/event2(PowerBtton)
+Watchingsystembttonson/dev/inpt/event0(LidSwitch)
+Watchingsystembttonson/dev/inpt/event1(SleepBtton)
+Watchingsystembttonson/dev/inpt/event9(HPUSBKeyboard)
+Watchingsystembttonson/dev/inpt/event10(HPUSBKeyboardSystemControl)
+Watchingsystembttonson/dev/inpt/event3(ATTranslatedSet2keyboard)
+Watchingsystembttonson/dev/inpt/event17(ThinkPadExtraBttons)
+PAMnabletodlopen(pam_kwallet.so)
+PAMaddingfaltymodle
+PAMnabletodlopen(pam_kwallet5.so)
+PAMaddingfaltymodle
+pam_nix(lightdm-greeter
+Newsessionc1ofserlightdm.
+pam_nix(systemd-ser
+PAMnabletodlopen(pam_kwallet.so)
+PAMaddingfaltymodle
+PAMnabletodlopen(pam_kwallet5.so)
+PAMaddingfaltymodle
+pam_scceed_if(lightdm
+pam_nix(lightdm-greeter
+pam_nix(lightdm
+Newsessionc2ofserrich.
+pam_nix(systemd-ser
+Removedsessionc1.
+RegisteredAthenticationAgentfornix-session
+askedtoregisteritem/org/freedesktop/secrets/collection/login/1,btit'salreadyregistered
+askedtoregisteritem/org/freedesktop/secrets/collection/login/1,btit'salreadyregistered
+askedtoregisteritem/org/freedesktop/secrets/collection/login/7,btit'salreadyregistered
+pam_nix(polkit-1
+rich
+pam_nix(polkit-1
+rich
+pam_nix(polkit-1
+rich
+pam_nix(polkit-1
+rich
+pam_nix(cron
+pam_nix(cron
+pam_nix(polkit-1
+rich
+pam_nix(cron
+pam_nix(cron
+pam_nix(polkit-1
+rich
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log | cut -d ':' -f 4 | tr -d "u  " | wc -l
+62
+
+
+
+rich@rich-TPM:/var/log$ cat auth.log | cut -d ':' -f 4 | tr -d "u  " | md5sum
+43f06c932c8e24daa4ed00fa1020c92d  
